@@ -9,4 +9,15 @@ export const HeadingOne = styled.h1`
 	line-height: 1.4;
 	margin: 0 0 10px;
 	letter-spacing: -0.05em;
+
+	@media (max-width: 701px) {
+		font-size: 4rem;
+	}
+`;
+
+export const SectionHeader = styled.h1`
+	font-family: "Playfair Display", sans-serif;
+	-webkit-font-smoothing: antialiased;
+	color: #1d2b4c;
+	margin: 1rem;
 `;

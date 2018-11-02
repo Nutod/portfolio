@@ -10,20 +10,25 @@ export const Wrapper = styled.div`
 `;
 
 export const ExperienceWrapper = styled(Wrapper)`
-	align-items: start;
+	height: auto;
+	flex-direction: column;
+	align-items: center;
 	margin-top: 2rem;
 	padding-top: 6rem;
-	background-image: linear-gradient(to right, #007bff26, #007bff26);
+	background-image: linear-gradient(to right, #007bff0a, #007bff0a);
 `;
 
 export const SideProjectWrapper = styled(Wrapper)`
-	align-items: start;
+	height: auto;
+	flex-direction: column;
+	align-items: center;
 	padding-top: 6rem;
-	background-image: linear-gradient(to right, #dc354566, #dc354566);
+	background-image: linear-gradient(to right, #e83e8c21, #e83e8c21);
 `;
 
 export const FooterWrapper = styled(Wrapper)`
 	align-items: start;
 	padding-top: 6rem;
+	height: 50vh;
 	background-image: linear-gradient(to right, #1151d3, #1151d3);
 `;

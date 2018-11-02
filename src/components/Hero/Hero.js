@@ -5,7 +5,9 @@ import { Wrapper } from "../elements/Wrapper";
 export default function Hero() {
 	return (
 		<Wrapper>
-			<HeadingOne>Hi, I'm Dotun</HeadingOne>
+			<div style={{ width: "40vw" }}>
+				<HeadingOne>Hi, I'm Dotun</HeadingOne>
+			</div>
 			<div
 				style={{
 					backgroundImage: "url(hero-wave.png)",

@@ -9,17 +9,21 @@ export const Wrapper = styled.div`
 	position: relative;
 `;
 
-export const HeroWrapper = styled(Wrapper)`
-	&::before {
-    background-image: url(hero-wave.png),
-		background-repeat: no-repeat;
-		background-position: right center;
-		content: "";
-		position: absolute;
-		width: 100%;
-		height: 100%;
-		left: 0;
-		top: 0;
-		z-index: -1;
-	}
+export const ExperienceWrapper = styled(Wrapper)`
+	align-items: start;
+	margin-top: 2rem;
+	padding-top: 6rem;
+	background-image: linear-gradient(to right, #007bff26, #007bff26);
+`;
+
+export const SideProjectWrapper = styled(Wrapper)`
+	align-items: start;
+	padding-top: 6rem;
+	background-image: linear-gradient(to right, #dc354566, #dc354566);
+`;
+
+export const FooterWrapper = styled(Wrapper)`
+	align-items: start;
+	padding-top: 6rem;
+	background-image: linear-gradient(to right, #1151d3, #1151d3);
 `;

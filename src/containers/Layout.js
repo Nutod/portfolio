@@ -1,14 +1,17 @@
 import React, { Component } from "react";
 import Hero from "../components/Hero/Hero";
+import Experience from "../components/Experience/Experience";
+import SideProject from "../components/SideProject/SideProject";
+import Footer from "../components/Footer/Footer";
 
 export default class Layout extends Component {
 	render() {
 		return (
 			<div>
 				<Hero />
-				{/* <h1>Previous Experience</h1>
-				<h1>Side Projects</h1>
-				<h1>Footer</h1> */}
+				<Experience />
+				<SideProject />
+				<Footer />
 			</div>
 		);
 	}

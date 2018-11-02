@@ -1,6 +1,14 @@
-*{
+*, 
+*::before, 
+*::after {
 	padding: 0;
-	margin: 0;
+  margin: 0;
+  box-sizing: inherit;
+}
+
+html {
+  font-size: 62.5%;
+  box-sizing: border-box;
 }
 
 body{
@@ -12,10 +20,12 @@ body{
     font-weight: 400;
     position: relative;
     overflow-x: hidden;
+    text-align: center;
 }
 
-h1, h2, h3, h4, h5, h6{
+h1{
     font-family: 'Playfair Display', sans-serif;
     -webkit-font-smoothing:antialiased;
-	color: #333;
+  color: #333;
+  margin: 1rem;
 }

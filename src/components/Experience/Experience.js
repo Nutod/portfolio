@@ -2,6 +2,7 @@ import React from "react";
 import { ExperienceWrapper } from "../elements/Wrapper";
 import { SectionHeader } from "../elements/Headers";
 import {
+	CardContainer,
 	Card,
 	CardSide,
 	CardSideFront,
@@ -14,7 +15,7 @@ export default function Experience() {
 	return (
 		<ExperienceWrapper>
 			<SectionHeader>Previous Projects</SectionHeader>
-			<div style={{ display: "flex" }}>
+			<CardContainer>
 				<Card>
 					<CardSide>
 						<CardSideFront>
@@ -42,7 +43,7 @@ export default function Experience() {
 						<CardSideBack>Back</CardSideBack>
 					</CardSide>
 				</Card>
-			</div>
+			</CardContainer>
 		</ExperienceWrapper>
 	);
 }

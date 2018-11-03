@@ -1,5 +1,9 @@
 import styled from "styled-components";
 
+export const CardContainer = styled.div`
+	display: flex;
+`;
+
 export const Card = styled.div`
 	perspective: 150rem;
 	-moz-perspective: 150rem;

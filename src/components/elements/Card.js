@@ -42,3 +42,13 @@ export const CardSideBack = styled(CardSide)`
 		transform: rotateY(0deg);
 	}
 `;
+
+export const CardHeading = styled.div``;
+
+export const CardPicture = styled.div`
+	background-size: cover;
+	height: 20rem;
+	background-image: url(${props => props.url});
+`;
+
+export const CardDetail = styled.div``;

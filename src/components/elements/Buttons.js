@@ -40,4 +40,19 @@ export const Button = styled.a`
 		border-radius: 2px;
 		transition: all 0.4s;
 	}
+
+	@media (max-width: 1000px) {
+		font-size: 1.8rem;
+		padding: 1.2rem 2.5rem;
+	}
+
+	@media (max-width: 815px) {
+		font-size: 1.5rem;
+		padding: 1rem 2.1rem;
+	}
+
+	@media (max-width: 430px) {
+		font-size: 1.2rem;
+		padding: 0.7rem 1.5rem;
+	}
 `;

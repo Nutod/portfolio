@@ -20,6 +20,7 @@ body{
     position: relative;
     overflow-x: hidden;
     text-align: center;
+    width: 100vw;
 }
 
 p {

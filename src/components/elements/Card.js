@@ -7,8 +7,15 @@ export const CardContainer = styled.div`
 	justify-content: center;
 
 	@media (max-width: 1000px) {
-		background: crimson;
 		flex-wrap: wrap;
+	}
+
+	@media (max-width: 636px) {
+		margin-top: 1rem;
+	}
+
+	@media (max-width: 500px) {
+		padding-top: 1rem;
 	}
 `;
 
@@ -19,6 +26,10 @@ export const Card = styled.div`
 	height: 35rem;
 	margin: 1.5rem;
 	position: relative;
+
+	@media (max-width: 450px) {
+		margin: 1rem 0;
+	}
 `;
 
 export const CardSide = styled.div`

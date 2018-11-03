@@ -77,5 +77,3 @@ export const CardPicture = styled.div`
 		url(${props => props.url});
 	clip-path: polygon(0 0, 100% 0, 100% 90%, 0 100%);
 `;
-
-export const CardDetail = styled.div``;

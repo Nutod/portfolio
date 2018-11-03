@@ -83,10 +83,22 @@ export const CardContent = styled.div`
 	position: absolute;
 	top: 50%;
 	left: 50%;
+	transform: translate(-50%, -50%);
+	width: 100%;
 `;
 
 export const CardLink = styled.a`
-		background: #fff;
-		color: #777'
-		padding: 2rem;
+	background: #fff;
+	font-size: 2rem;
+	font-weight: 300;
+	cursor: pointer;
+	color: #777;
+	padding: 1rem 1.5rem;
+	text-transform: uppercase;
+	text-decoration: none;
+	transition: all 0.2s;
+
+	&:hover {
+		box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+	}
 `;

@@ -9,7 +9,8 @@ import {
 	CardSideBack,
 	CardPicture,
 	CardHeading,
-	CardContent
+	CardContent,
+	CardLink
 } from "../elements/Card";
 
 export default function Experience() {
@@ -28,7 +29,11 @@ export default function Experience() {
 							</CardHeading>
 						</CardSideFront>
 						<CardSideBack from="#43c6ac" to="#f8ffae">
-							<CardContent>BACK</CardContent>
+							<CardContent>
+								<CardLink href="http://www.google.com" target="_blank">
+									View Project
+								</CardLink>
+							</CardContent>
 						</CardSideBack>
 					</CardSide>
 				</Card>

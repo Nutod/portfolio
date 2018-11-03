@@ -41,6 +41,7 @@ export const CardSideBack = styled(CardSide)`
 		${props => props.to}
 	);
 	transform: rotateY(180deg);
+	position: relative;
 
 	${Card}:hover & {
 		transform: rotateY(0deg);
@@ -77,3 +78,5 @@ export const CardPicture = styled.div`
 		url(${props => props.url});
 	clip-path: polygon(0 0, 100% 0, 100% 90%, 0 100%);
 `;
+
+export const CardContent = styled.div``;

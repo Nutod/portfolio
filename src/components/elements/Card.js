@@ -3,6 +3,13 @@ import styled from "styled-components";
 export const CardContainer = styled.div`
 	display: flex;
 	margin-top: 2rem;
+	padding: 5rem;
+	justify-content: center;
+
+	@media (max-width: 1000px) {
+		background: crimson;
+		flex-wrap: wrap;
+	}
 `;
 
 export const Card = styled.div`
@@ -10,7 +17,7 @@ export const Card = styled.div`
 	-moz-perspective: 150rem;
 	width: 30rem;
 	height: 35rem;
-	margin: 3rem;
+	margin: 1.5rem;
 	position: relative;
 `;
 

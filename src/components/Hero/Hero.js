@@ -6,7 +6,7 @@ import { Button } from "../elements/Buttons";
 export default function Hero() {
 	return (
 		<Wrapper>
-			<div style={{ width: "60vw" }}>
+			<div style={{ width: "80vw" }}>
 				<HeadingThree>Hi! I'm</HeadingThree>
 				<HeroHeader>Aluko Oladotun</HeroHeader>
 				<HeadingOne>Frontend Developer</HeadingOne>

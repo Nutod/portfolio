@@ -26,7 +26,7 @@ export const HeadingOne = styled.h1`
 
 export const HeroHeader = styled(HeadingOne)`
 	font-family: "Playfair Display", serif;
-	font-size: 8rem;
+	font-size: 7rem;
 	font-weight: 900;
 	color: #1d2b4c;
 `;

@@ -30,6 +30,7 @@ export const SideProjectWrapper = styled(Wrapper)`
 export const FooterWrapper = styled(Wrapper)`
 	flex-direction: column;
 	align-items: center;
+	padding: 1.5rem;
 	padding-top: 6rem;
 	background-color: #032973;
 	height: 50vh;

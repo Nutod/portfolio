@@ -6,9 +6,9 @@ export default function Footer() {
 	return (
 		<FooterWrapper>
 			<div style={{ width: "50vw" }}>
-				You can send me a mail here:
+				You can say hi to me here:
 				<MailText>alukodotun@gmail.com</MailText>
-				Or call me:
+				Or perhaps a Call:
 				<NumberText>0803.769.9140</NumberText>
 				<CopyrightText>&copy; 2018 Oladotun Aluko</CopyrightText>
 			</div>

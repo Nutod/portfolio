@@ -1,7 +1,14 @@
 import React from "react";
 import { ExperienceWrapper } from "../elements/Wrapper";
 import { SectionHeader } from "../elements/Headers";
-import { Card, CardSide, CardSideFront, CardSideBack } from "../elements/Card";
+import {
+	Card,
+	CardSide,
+	CardSideFront,
+	CardSideBack,
+	CardPicture,
+	CardHeading
+} from "../elements/Card";
 
 export default function Experience() {
 	return (
@@ -10,7 +17,14 @@ export default function Experience() {
 			<div style={{ display: "flex" }}>
 				<Card>
 					<CardSide>
-						<CardSideFront>Front</CardSideFront>
+						<CardSideFront>
+							<CardPicture url="blog-1-2.jpg" from="#43c6ac" to="#f8ffae">
+								&nbsp;
+							</CardPicture>
+							<CardHeading from="red" to="orange">
+								The Explorer
+							</CardHeading>
+						</CardSideFront>
 						<CardSideBack from="#43c6ac" to="#f8ffae">
 							Back
 						</CardSideBack>

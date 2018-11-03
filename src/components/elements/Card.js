@@ -4,13 +4,13 @@ export const Card = styled.div`
 	perspective: 150rem;
 	-moz-perspective: 150rem;
 	width: 30rem;
-	height: 30rem;
-	margin: 2rem;
+	height: 35rem;
+	margin: 3rem;
 	position: relative;
 `;
 
 export const CardSide = styled.div`
-	height: 30rem;
+	height: 35rem;
 	transition: all 0.8s ease;
 	color: #fff;
 	position: absolute;
@@ -43,12 +43,35 @@ export const CardSideBack = styled(CardSide)`
 	}
 `;
 
-export const CardHeading = styled.div``;
+export const CardHeading = styled.h3`
+	font-size: 2.8rem;
+	font-weight: 300;
+	text-transform: uppercase;
+	color: #fff;
+	position: absolute;
+	top: 24rem;
+	right: 2rem;
+	text-align: right;
+	padding: 1rem;
+	background-image: linear-gradient(
+		to right bottom,
+		${props => props.from},
+		${props => props.to}
+	);
+	width: 70%;
+`;
 
 export const CardPicture = styled.div`
 	background-size: cover;
-	height: 20rem;
-	background-image: url(${props => props.url});
+	height: 28rem;
+	background-blend-mode: screen;
+	background-image: linear-gradient(
+			to right bottom,
+			${props => props.from},
+			${props => props.to}
+		),
+		url(${props => props.url});
+	clip-path: polygon(0 0, 100% 0, 100% 90%, 0 100%);
 `;
 
 export const CardDetail = styled.div``;

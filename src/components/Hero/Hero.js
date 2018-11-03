@@ -1,16 +1,22 @@
 import React from "react";
-import { HeadingOne } from "../elements/Headers";
+import { HeadingOne, HeadingThree, HeroHeader } from "../elements/Headers";
 import { Wrapper } from "../elements/Wrapper";
+import { Button } from "../elements/Buttons";
 
 export default function Hero() {
 	return (
 		<Wrapper>
-			<div style={{ width: "40vw" }}>
-				<HeadingOne>Hi, I'm Dotun</HeadingOne>
+			<div style={{ width: "60vw" }}>
+				<HeadingThree>Hi! I'm</HeadingThree>
+				<HeroHeader>Aluko Oladotun</HeroHeader>
+				<HeadingOne>Frontend Developer</HeadingOne>
+				<p style={{ marginTop: "2.7rem" }}>
+					<Button>Download Resume</Button>
+				</p>
 			</div>
 			<div
 				style={{
-					backgroundImage: "url(hero-wave.png)",
+					backgroundImage: "url(hero-bg.png)",
 					height: "100%",
 					width: "100%",
 					backgroundRepeat: "no-repeat",
@@ -18,8 +24,7 @@ export default function Hero() {
 					position: "absolute",
 					top: 0,
 					left: 0,
-					zIndex: -1,
-					opacity: 0.3
+					zIndex: -1
 				}}
 			/>
 		</Wrapper>

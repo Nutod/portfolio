@@ -3,11 +3,12 @@ import { Grid } from "mauerwerk";
 import { SideProjectWrapper } from "../elements/Wrapper";
 import data from "../../data";
 import WithMedia from "../../HOCs/WithMedia";
+import { SectionHeader } from "../elements/Headers";
 
 export default function SideProject() {
 	return (
 		<SideProjectWrapper>
-			<h1>Side Projects</h1>
+			<SectionHeader>Side Projects</SectionHeader>
 			<div style={{ height: "5rem" }} />
 			<WithMedia>
 				{({ width }) => (

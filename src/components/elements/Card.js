@@ -79,4 +79,14 @@ export const CardPicture = styled.div`
 	clip-path: polygon(0 0, 100% 0, 100% 90%, 0 100%);
 `;
 
-export const CardContent = styled.div``;
+export const CardContent = styled.div`
+	position: absolute;
+	top: 50%;
+	left: 50%;
+`;
+
+export const CardLink = styled.a`
+		background: #fff;
+		color: #777'
+		padding: 2rem;
+`;

@@ -8,7 +8,8 @@ import {
 	CardSideFront,
 	CardSideBack,
 	CardPicture,
-	CardHeading
+	CardHeading,
+	CardContent
 } from "../elements/Card";
 
 export default function Experience() {
@@ -27,7 +28,7 @@ export default function Experience() {
 							</CardHeading>
 						</CardSideFront>
 						<CardSideBack from="#43c6ac" to="#f8ffae">
-							Back
+							<CardContent>BACK</CardContent>
 						</CardSideBack>
 					</CardSide>
 				</Card>

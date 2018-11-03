@@ -39,14 +39,40 @@ export default function Experience() {
 				</Card>
 				<Card>
 					<CardSide>
-						<CardSideFront>Front</CardSideFront>
-						<CardSideBack>Back</CardSideBack>
+						<CardSideFront>
+							<CardPicture url="blog-1-2.jpg" from="#43c6ac" to="#f8ffae">
+								&nbsp;
+							</CardPicture>
+							<CardHeading from="red" to="orange">
+								The Explorer
+							</CardHeading>
+						</CardSideFront>
+						<CardSideBack from="#43c6ac" to="#f8ffae">
+							<CardContent>
+								<CardLink href="http://www.google.com" target="_blank">
+									View Project
+								</CardLink>
+							</CardContent>
+						</CardSideBack>
 					</CardSide>
 				</Card>
 				<Card>
 					<CardSide>
-						<CardSideFront>Front</CardSideFront>
-						<CardSideBack>Back</CardSideBack>
+						<CardSideFront>
+							<CardPicture url="blog-1-2.jpg" from="#43c6ac" to="#f8ffae">
+								&nbsp;
+							</CardPicture>
+							<CardHeading from="red" to="orange">
+								The Explorer
+							</CardHeading>
+						</CardSideFront>
+						<CardSideBack from="#43c6ac" to="#f8ffae">
+							<CardContent>
+								<CardLink href="http://www.google.com" target="_blank">
+									View Project
+								</CardLink>
+							</CardContent>
+						</CardSideBack>
 					</CardSide>
 				</Card>
 			</CardContainer>

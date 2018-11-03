@@ -2,6 +2,7 @@ import styled from "styled-components";
 
 export const CardContainer = styled.div`
 	display: flex;
+	margin-top: 2rem;
 `;
 
 export const Card = styled.div`

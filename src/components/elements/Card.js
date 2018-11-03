@@ -26,7 +26,7 @@ export const CardSideFront = styled(CardSide)`
 	background-color: #fff;
 
 	${Card}:hover & {
-		transform: rotateY(180deg);
+		transform: rotateY(-180deg);
 	}
 `;
 

@@ -68,7 +68,7 @@ export const CardSideBack = styled(CardSide)`
 `;
 
 export const CardHeading = styled.h3`
-	font-size: 2.8rem;
+	font-size: 2rem;
 	font-weight: 300;
 	text-transform: uppercase;
 	color: #fff;
@@ -116,8 +116,13 @@ export const CardLink = styled.a`
 	text-transform: uppercase;
 	text-decoration: none;
 	transition: all 0.2s;
+	border-radius: 4px;
 
 	&:hover {
-		box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+		box-shadow: 0 5px 8px rgba(0, 0, 0, 0.2);
+	}
+
+	&:active {
+		box-shadow: 0 3px 5px rgba(0, 0, 0, 0.2);
 	}
 `;

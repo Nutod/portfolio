@@ -4,14 +4,15 @@ import { HeroWrapper, HeroBackground } from "../elements/Wrapper";
 import { Button } from "../elements/Buttons";
 
 export default function Hero() {
+	// const Text = ['Frontend Developer', 'UI Designer']
 	return (
 		<HeroWrapper>
 			<div style={{ width: "80vw" }}>
 				<HeadingThree>Hi! I'm</HeadingThree>
-				<HeroHeader>Aluko Oladotun</HeroHeader>
+				<HeroHeader>Oladotun Aluko</HeroHeader>
 				<HeadingOne>Frontend Developer</HeadingOne>
 				<p style={{ marginTop: "2.7rem" }}>
-					<Button>Download Resume</Button>
+					<Button href="Résume.pdf" download="Oladotun Aluko Résume">Download Resume</Button>
 				</p>
 			</div>
 			<HeroBackground />

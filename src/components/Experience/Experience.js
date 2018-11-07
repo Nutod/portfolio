@@ -21,16 +21,16 @@ export default function Experience() {
 				<Card>
 					<CardSide>
 						<CardSideFront>
-							<CardPicture url="blog-1-2.jpg" from="#43c6ac" to="#f8ffae">
+							<CardPicture url="kudi-min.jpg" from="#2193b0" to="#6dd5ed">
 								&nbsp;
 							</CardPicture>
-							<CardHeading from="red" to="orange">
-								The Explorer
+							<CardHeading from="#2193b0" to="#6dd5ed">
+								Kudi.ai
 							</CardHeading>
 						</CardSideFront>
-						<CardSideBack from="#43c6ac" to="#f8ffae">
+						<CardSideBack from="#2193b0" to="#6dd5ed">
 							<CardContent>
-								<CardLink href="http://www.google.com" target="_blank">
+								<CardLink href="https://kudi.ai" target="_blank">
 									View Project
 								</CardLink>
 							</CardContent>
@@ -40,16 +40,16 @@ export default function Experience() {
 				<Card>
 					<CardSide>
 						<CardSideFront>
-							<CardPicture url="blog-1-2.jpg" from="#43c6ac" to="#f8ffae">
+							<CardPicture url="cleaners-min.jpg" from="#FDC830" to="#F37335">
 								&nbsp;
 							</CardPicture>
-							<CardHeading from="red" to="orange">
-								The Explorer
+							<CardHeading from="#FDC830" to="#F37335">
+								Instant Cleaners
 							</CardHeading>
 						</CardSideFront>
-						<CardSideBack from="#43c6ac" to="#f8ffae">
+						<CardSideBack from="#FDC830" to="#F37335">
 							<CardContent>
-								<CardLink href="http://www.google.com" target="_blank">
+								<CardLink href="http://instantcleaners.com" target="_blank">
 									View Project
 								</CardLink>
 							</CardContent>
@@ -59,16 +59,16 @@ export default function Experience() {
 				<Card>
 					<CardSide>
 						<CardSideFront>
-							<CardPicture url="blog-1-2.jpg" from="#43c6ac" to="#f8ffae">
+							<CardPicture url="capro-min.jpg" from="#FF4B2B" to="#FF416C">
 								&nbsp;
 							</CardPicture>
-							<CardHeading from="red" to="orange">
-								The Explorer
+							<CardHeading from="#FF4B2B" to="#FF416C">
+								Capro Usa
 							</CardHeading>
 						</CardSideFront>
-						<CardSideBack from="#43c6ac" to="#f8ffae">
+						<CardSideBack from="#FF4B2B" to="#FF416C">
 							<CardContent>
-								<CardLink href="http://www.google.com" target="_blank">
+								<CardLink href="http://caprousa.org" target="_blank">
 									View Project
 								</CardLink>
 							</CardContent>

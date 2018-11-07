@@ -21,14 +21,36 @@ export default function SideProject() {
 				<Card>
 					<CardSide>
 						<CardSideFront>
-							<CardPicture url="blog-1-2.jpg" from="#43c6ac" to="#f8ffae">
+							<CardPicture from="#F0CB35" to="#C02425">
 								&nbsp;
 							</CardPicture>
-							<CardHeading from="red" to="orange">
-								The Explorer
+							<CardHeading from="#F0CB35" to="#C02425">
+								Burger Builder
 							</CardHeading>
 						</CardSideFront>
-						<CardSideBack from="#43c6ac" to="#f8ffae">
+						<CardSideBack from="#F0CB35" to="#C02425">
+							<CardContent>
+								<CardLink
+									href="http://burger-react-d3b90.firebaseapp.com"
+									target="_blank"
+								>
+									View Project
+								</CardLink>
+							</CardContent>
+						</CardSideBack>
+					</CardSide>
+				</Card>
+				<Card>
+					<CardSide>
+						<CardSideFront>
+							<CardPicture from="#F15F79" to="#B24592">
+								&nbsp;
+							</CardPicture>
+							<CardHeading from="#F15F79" to="#B24592">
+								Teams App
+							</CardHeading>
+						</CardSideFront>
+						<CardSideBack from="#F15F79" to="#B24592">
 							<CardContent>
 								<CardLink href="http://www.google.com" target="_blank">
 									View Project
@@ -40,35 +62,19 @@ export default function SideProject() {
 				<Card>
 					<CardSide>
 						<CardSideFront>
-							<CardPicture url="blog-1-2.jpg" from="#43c6ac" to="#f8ffae">
+							<CardPicture from="#DBD5A4" to="#649173">
 								&nbsp;
 							</CardPicture>
-							<CardHeading from="red" to="orange">
-								The Explorer
+							<CardHeading from="#DBD5A4" to="#649173">
+								Robots App
 							</CardHeading>
 						</CardSideFront>
-						<CardSideBack from="#43c6ac" to="#f8ffae">
+						<CardSideBack from="#DBD5A4" to="#649173">
 							<CardContent>
-								<CardLink href="http://www.google.com" target="_blank">
-									View Project
-								</CardLink>
-							</CardContent>
-						</CardSideBack>
-					</CardSide>
-				</Card>
-				<Card>
-					<CardSide>
-						<CardSideFront>
-							<CardPicture url="blog-1-2.jpg" from="#43c6ac" to="#f8ffae">
-								&nbsp;
-							</CardPicture>
-							<CardHeading from="red" to="orange">
-								The Explorer
-							</CardHeading>
-						</CardSideFront>
-						<CardSideBack from="#43c6ac" to="#f8ffae">
-							<CardContent>
-								<CardLink href="http://www.google.com" target="_blank">
+								<CardLink
+									href="https://codesandbox.io/s/xojv3zw5mp"
+									target="_blank"
+								>
 									View Project
 								</CardLink>
 							</CardContent>

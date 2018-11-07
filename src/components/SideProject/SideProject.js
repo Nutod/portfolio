@@ -52,7 +52,10 @@ export default function SideProject() {
 						</CardSideFront>
 						<CardSideBack from="#F15F79" to="#B24592">
 							<CardContent>
-								<CardLink href="http://www.google.com" target="_blank">
+								<CardLink
+									href="https://codesandbox.io/s/m5v40q9n2p"
+									target="_blank"
+								>
 									View Project
 								</CardLink>
 							</CardContent>

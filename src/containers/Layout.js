@@ -7,12 +7,12 @@ import Footer from "../components/Footer/Footer";
 export default class Layout extends Component {
 	render() {
 		return (
-			<div>
+			<>
 				<Hero />
 				<Experience />
 				<SideProject />
 				<Footer />
-			</div>
+			</>
 		);
 	}
 }

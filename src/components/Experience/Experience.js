@@ -21,6 +21,13 @@ export default function Experience() {
 			image: "kudi-min.jpg",
 			from: "#2193b0",
 			to: "#6dd5ed"
+		},
+		{
+			title: "Instant Cleaners",
+			url: "http://instantcleaners.com",
+			image: "cleaners-min.jpg",
+			from: "#FDC830",
+			to: "#F37335"
 		}
 	];
 
@@ -53,25 +60,6 @@ export default function Experience() {
 						</CardSide>
 					</Card>
 				))}
-				<Card>
-					<CardSide>
-						<CardSideFront>
-							<CardPicture url="cleaners-min.jpg" from="#FDC830" to="#F37335">
-								&nbsp;
-							</CardPicture>
-							<CardHeading from="#FDC830" to="#F37335">
-								Instant Cleaners
-							</CardHeading>
-						</CardSideFront>
-						<CardSideBack from="#FDC830" to="#F37335">
-							<CardContent>
-								<CardLink href="http://instantcleaners.com" target="_blank">
-									View Project
-								</CardLink>
-							</CardContent>
-						</CardSideBack>
-					</CardSide>
-				</Card>
 				<Card>
 					<CardSide>
 						<CardSideFront>

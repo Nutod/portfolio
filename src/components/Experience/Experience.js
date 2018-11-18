@@ -14,29 +14,45 @@ import {
 } from "../elements/Card";
 
 export default function Experience() {
+	const state = [
+		{
+			title: "Kudi.ai",
+			url: "https://kudi.ai",
+			image: "kudi-min.jpg",
+			from: "#2193b0",
+			to: "#6dd5ed"
+		}
+	];
+
 	return (
 		<ExperienceWrapper>
 			<SectionHeader>Previous Projects</SectionHeader>
 			<CardContainer>
-				<Card>
-					<CardSide>
-						<CardSideFront>
-							<CardPicture url="kudi-min.jpg" from="#2193b0" to="#6dd5ed">
-								&nbsp;
-							</CardPicture>
-							<CardHeading from="#2193b0" to="#6dd5ed">
-								Kudi.ai
-							</CardHeading>
-						</CardSideFront>
-						<CardSideBack from="#2193b0" to="#6dd5ed">
-							<CardContent>
-								<CardLink href="https://kudi.ai" target="_blank">
-									View Project
-								</CardLink>
-							</CardContent>
-						</CardSideBack>
-					</CardSide>
-				</Card>
+				{state.map(project => (
+					<Card key={project.title}>
+						<CardSide>
+							<CardSideFront>
+								<CardPicture
+									url={project.image}
+									from={project.from}
+									to={project.to}
+								>
+									&nbsp;
+								</CardPicture>
+								<CardHeading from={project.from} to={project.to}>
+									{project.title}
+								</CardHeading>
+							</CardSideFront>
+							<CardSideBack from={project.from} to={project.to}>
+								<CardContent>
+									<CardLink href={project.url} target="_blank">
+										View Project
+									</CardLink>
+								</CardContent>
+							</CardSideBack>
+						</CardSide>
+					</Card>
+				))}
 				<Card>
 					<CardSide>
 						<CardSideFront>

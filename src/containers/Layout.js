@@ -1,11 +1,10 @@
-import React, { Component } from "react";
+import React from "react";
 import Hero from "../components/Hero/Hero";
 import Experience from "../components/Experience/Experience";
 import SideProject from "../components/SideProject/SideProject";
 import Footer from "../components/Footer/Footer";
 
-export default class Layout extends Component {
-	render() {
+export default function Layout() {
 		return (
 			<>
 				<Hero />
@@ -14,5 +13,4 @@ export default class Layout extends Component {
 				<Footer />
 			</>
 		);
-	}
 }

@@ -28,6 +28,13 @@ export default function Experience() {
 			image: "cleaners-min.jpg",
 			from: "#FDC830",
 			to: "#F37335"
+		},
+		{
+			title: "Capro USA",
+			url: "http://caprousa.org",
+			image: "capro-min.jpg",
+			from: "#FF4B2B",
+			to: "#FF416C"
 		}
 	];
 
@@ -60,25 +67,6 @@ export default function Experience() {
 						</CardSide>
 					</Card>
 				))}
-				<Card>
-					<CardSide>
-						<CardSideFront>
-							<CardPicture url="capro-min.jpg" from="#FF4B2B" to="#FF416C">
-								&nbsp;
-							</CardPicture>
-							<CardHeading from="#FF4B2B" to="#FF416C">
-								Capro Usa
-							</CardHeading>
-						</CardSideFront>
-						<CardSideBack from="#FF4B2B" to="#FF416C">
-							<CardContent>
-								<CardLink href="http://caprousa.org" target="_blank">
-									View Project
-								</CardLink>
-							</CardContent>
-						</CardSideBack>
-					</CardSide>
-				</Card>
 			</CardContainer>
 		</ExperienceWrapper>
 	);

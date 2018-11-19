@@ -23,10 +23,6 @@ body {
     width: 100vw;
 }
 
-@media (max-width: 636px) {
-	padding: 10px;
-}
-
 p {
   font-size: 2.2rem;
   font-weight: 300;

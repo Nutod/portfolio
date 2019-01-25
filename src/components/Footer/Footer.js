@@ -2,7 +2,20 @@ import React from "react";
 import { FooterWrapper } from "../elements/Wrapper";
 import { MailText, NumberText, CopyrightText } from "../elements/Texts";
 
-const months = ['January', 'February', 'March', 'April', 'May', 'June', 'July', 'August', 'September', 'October', 'November', 'December']
+const months = [
+	"January",
+	"February",
+	"March",
+	"April",
+	"May",
+	"June",
+	"July",
+	"August",
+	"September",
+	"October",
+	"November",
+	"December"
+];
 
 export default function Footer() {
 	return (
@@ -15,7 +28,10 @@ export default function Footer() {
 				<MailText>alukodotun@gmail.com</MailText>
 				Or perhaps a Call
 				<NumberText>0803.769.9140</NumberText>
-				<CopyrightText>&copy; 2019 Oladotun Aluko</CopyrightText>
+				<CopyrightText>
+					&copy; {months[new Date().getMonth()]}, {new Date().getFullYear()}{" "}
+					Oladotun Aluko
+				</CopyrightText>
 			</div>
 		</FooterWrapper>
 	);

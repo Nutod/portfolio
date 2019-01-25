@@ -13,7 +13,7 @@ export default function Footer() {
 				<MailText>alukodotun@gmail.com</MailText>
 				Or perhaps a Call
 				<NumberText>0803.769.9140</NumberText>
-				<CopyrightText>&copy; 2018 Oladotun Aluko</CopyrightText>
+				<CopyrightText>&copy; 2019 Oladotun Aluko</CopyrightText>
 			</div>
 		</FooterWrapper>
 	);

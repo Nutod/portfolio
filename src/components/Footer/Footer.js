@@ -2,6 +2,8 @@ import React from "react";
 import { FooterWrapper } from "../elements/Wrapper";
 import { MailText, NumberText, CopyrightText } from "../elements/Texts";
 
+const months = ['January', 'February', 'March', 'April', 'May', 'June', 'July', 'August', 'September', 'October', 'November', 'December']
+
 export default function Footer() {
 	return (
 		<FooterWrapper>
